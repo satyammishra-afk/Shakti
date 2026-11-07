@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shakti Electric Works – Motor, Pump & Electrical Repair, Andheri East Mumbai</title>
+<meta name="description" content="Shakti Electric Works, J B Nagar, Andheri East: AC/DC motor repair 0.5–500 HP, water pump repair, rewinding, wiring and plumbing. Call 7738578508.">
+<style>
+:root{
+  --bg:#f6f7fb; --surface:#fff; --text:#16192a; --muted:#5a6078; --border:#e1e4ee;
+  --brand:#ffc21a; --brand-ink:#16192a; --navy:#0e1a3a; --navy2:#1b2f63; --accent:#e8590c; --wa:#1fb855;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0a101f;--surface:#121b31;--text:#eef0f7;--muted:#a3abc2;--border:#243051;--navy:#060b17;--navy2:#142349}
+}
+:root[data-theme="dark"]{--bg:#0a101f;--surface:#121b31;--text:#eef0f7;--muted:#a3abc2;--border:#243051;--navy:#060b17;--navy2:#142349}
+:root{color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:100px}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+svg.i{width:1.1em;height:1.1em;fill:currentColor;vertical-align:-.15em}
+
+/* top bar */
+.top{background:var(--navy);color:#c9d1ea;font-size:.85rem}
+.top .wrap{display:flex;flex-wrap:wrap;gap:6px 24px;justify-content:space-between;padding-top:8px;padding-bottom:8px}
+.top a:hover{color:var(--brand)}
+
+/* header */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:var(--surface);border-bottom:1px solid var(--border)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.logo b{width:38px;height:38px;border-radius:10px;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center}
+.logo small{display:block;font-size:.65rem;font-weight:600;color:var(--muted);letter-spacing:.12em;text-transform:uppercase}
+nav ul{display:flex;gap:26px;list-style:none;font-weight:600;font-size:.95rem}
+nav a:hover{color:var(--accent)}
+.btn{display:inline-flex;align-items:center;gap:9px;padding:12px 22px;border-radius:999px;font-weight:700;transition:transform .15s,box-shadow .15s;cursor:pointer;border:0;font-size:1rem}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.18)}
+.b-y{background:var(--brand);color:var(--brand-ink)}
+.b-g{background:var(--wa);color:#fff}
+.b-o{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.55)}
+@media(max-width:820px){nav ul{display:none}.nav .btn{padding:10px 16px}}
+
+/* hero slider */
+.hero{position:relative;background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 2px,transparent 2px 22px)}
+.slides{position:relative;min-height:470px}
+.slide{position:absolute;inset:0;display:flex;align-items:center;opacity:0;visibility:hidden;transition:opacity .6s}
+.slide.on{opacity:1;visibility:visible}
+.slide .wrap{position:relative;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;width:100%}
+.tag{display:inline-block;background:rgba(255,194,26,.16);color:var(--brand);padding:4px 14px;border-radius:99px;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.slide h1{font-size:clamp(1.9rem,4.6vw,3.3rem);line-height:1.12;margin:14px 0}
+.slide h1 em{font-style:normal;color:var(--brand)}
+.slide p{max-width:540px;color:#cdd5ee;font-size:1.08rem}
+.row{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.art{font-size:min(15rem,38vw);text-align:center;line-height:1;filter:drop-shadow(0 12px 28px rgba(0,0,0,.4))}
+@media(max-width:720px){.slide .wrap{grid-template-columns:1fr}.art{display:none}.slides{min-height:520px}}
+.dots{position:absolute;left:0;right:0;bottom:18px;display:flex;justify-content:center;gap:10px;z-index:3}
+.dots button{width:11px;height:11px;border-radius:50%;border:0;background:rgba(255,255,255,.4);cursor:pointer}
+.dots button.on{background:var(--brand);width:30px;border-radius:99px}
+
+/* quick strip */
+.strip{margin-top:-1px;background:var(--brand);color:var(--brand-ink)}
+.strip .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px 20px;padding-top:16px;padding-bottom:16px;font-weight:700;text-align:center}
+
+section{padding:76px 0}
+.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.14em;text-transform:uppercase;font-size:.8rem}
+h2{font-size:clamp(1.7rem,3.6vw,2.4rem);line-height:1.2;margin:8px 0 14px}
+.lead{color:var(--muted);max-width:640px}
+.center{text-align:center}.center .lead{margin:0 auto}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+@media(max-width:800px){.about{grid-template-columns:1fr}}
+.panel{background:linear-gradient(145deg,var(--navy2),var(--navy));color:#fff;border-radius:22px;padding:34px;position:relative;overflow:hidden}
+.panel::after{content:"⚡";position:absolute;right:-10px;bottom:-40px;font-size:11rem;opacity:.1}
+.panel h3{font-size:1.3rem;margin-bottom:14px;color:var(--brand)}
+.panel li{list-style:none;padding:8px 0 8px 30px;position:relative;border-bottom:1px solid rgba(255,255,255,.12)}
+.panel li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
+.mini{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.mini div{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px}
+.mini b{display:block;margin-bottom:2px}
+.mini span{color:var(--muted);font-size:.9rem}
+
+/* features */
+.alt{background:var(--surface);border-block:1px solid var(--border)}
+.feat{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-top:40px}
+.feat div{position:relative;padding:30px 24px 24px;border-radius:16px;background:var(--bg);border:1px solid var(--border)}
+.feat .n{font-size:3rem;font-weight:900;color:var(--brand);line-height:1;opacity:.9}
+.feat h3{margin:6px 0 6px}
+.feat p{color:var(--muted);font-size:.95rem}
+
+/* services */
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));margin-top:40px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:18px;overflow:hidden;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(14,26,58,.15)}
+.card .top-art{height:130px;display:grid;place-items:center;font-size:3.8rem;background:linear-gradient(135deg,var(--navy2),var(--navy))}
+.card .body{padding:22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.card h3{font-size:1.15rem}
+.card p{color:var(--muted);font-size:.95rem}
+.card ul{margin:6px 0 10px 18px;color:var(--muted);font-size:.92rem}
+.card a.more{margin-top:auto;color:var(--accent);font-weight:700}
+
+/* cta */
+.cta{background:linear-gradient(120deg,var(--navy),var(--navy2));color:#fff;text-align:center;padding:70px 0}
+.cta h2{max-width:720px;margin:0 auto 12px}
+.cta p{color:#cdd5ee;max-width:560px;margin:0 auto}
+.cta .row{justify-content:center}
+
+/* contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:40px}
+@media(max-width:800px){.contact{grid-template-columns:1fr}}
+.cbox{background:var(--surface);border:1px solid var(--border);border-radius:18px;padding:28px}
+.item{display:flex;gap:14px;margin-bottom:20px}
+.item .ic{flex:none;width:44px;height:44px;border-radius:12px;background:var(--brand);color:var(--brand-ink);display:grid;place-items:center;font-size:1.2rem}
+.item b{display:block;font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.item a.big{font-size:1.5rem;font-weight:800}
+.item a.big:hover{color:var(--accent)}
+form label{display:block;font-weight:600;font-size:.9rem;margin:12px 0 4px}
+form input,form select,form textarea{width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--border);background:var(--bg);color:var(--text);font:inherit}
+form textarea{min-height:90px;resize:vertical}
+form .btn{margin-top:16px;width:100%;justify-content:center}
+
+footer{background:var(--navy);color:#b5bdd6;padding:56px 0 24px;border-top:4px solid var(--brand)}
+.fgrid{display:grid;gap:34px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+footer h4{color:#fff;margin-bottom:12px}
+footer li{list-style:none;margin-bottom:7px;font-size:.93rem}
+footer a:hover{color:var(--brand)}
+.copy{margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:.85rem}
+
+.float{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:50;display:flex;flex-direction:column;gap:12px}
+.float a{width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 6px 16px rgba(0,0,0,.35);transition:transform .15s}
+.float a:hover{transform:scale(1.1)}
+.float svg{width:30px;height:30px;fill:#fff}
+.float .c{background:var(--brand)}.float .c svg{fill:#16192a}
+.float .w{background:var(--wa);animation:pulse 2.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(31,184,85,.6)}70%{box-shadow:0 0 0 16px rgba(31,184,85,0)}100%{box-shadow:0 0 0 0 rgba(31,184,85,0)}}
+@media (prefers-reduced-motion:reduce){.float .w{animation:none}.slide{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="wa" viewBox="0 0 32 32"><path d="M16.04 3C9.4 3 4 8.4 4 15.04c0 2.12.55 4.18 1.6 6L4 29l8.12-1.56a12 12 0 0 0 3.92.66h.01C22.7 28.1 28 22.7 28 16.06 28 9.4 22.7 3 16.04 3zm0 22.1a10 10 0 0 1-5.1-1.4l-.36-.22-4.82.93.96-4.7-.24-.38a10 10 0 0 1-1.54-5.3c0-5.5 4.5-10 10.1-10 5.5 0 10 4.5 10 10 0 5.6-4.5 10.07-10 10.07zm5.5-7.5c-.3-.15-1.78-.88-2.05-.98-.28-.1-.48-.15-.68.15-.2.3-.78.98-.95 1.18-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5a9 9 0 0 1-1.68-2.08c-.18-.3 0-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.38-.02-.53-.08-.15-.68-1.64-.93-2.25-.25-.58-.5-.5-.68-.5h-.58c-.2 0-.53.08-.8.38-.28.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.1 3.2 5.1 4.5.7.3 1.27.5 1.7.62.72.23 1.37.2 1.88.12.57-.08 1.78-.73 2.03-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35z"/></symbol>
+<symbol id="ph" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.6a1 1 0 0 1-.25 1z"/></symbol>
+<symbol id="pin" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></symbol>
+</svg>
+
+<div class="top"><div class="wrap">
+  <a href="https://www.google.com/maps/search/?api=1&query=Shakti+Electric+Works+J+B+Nagar+Andheri+East+Mumbai+400093" target="_blank" rel="noopener"><svg class="i"><use href="#pin"/></svg> J B Nagar, Andheri East, Mumbai 400093</a>
+  <span>
+    <a href="tel:+917738578508"><svg class="i"><use href="#ph"/></svg> 7738578508</a> &nbsp;·&nbsp;
+    <a href="https://wa.me/917738578508" target="_blank" rel="noopener"><svg class="i"><use href="#wa"/></svg> WhatsApp</a>
+  </span>
+</div></div>
+
+<header><div class="wrap nav">
+  <a href="#home" class="logo"><b>⚡</b><span>Shakti Electric Works<small>Repair · Rewinding · Service</small></span></a>
+  <nav><ul>
+    <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li>
+  </ul></nav>
+  <a class="btn b-y" href="tel:+917738578508"><svg class="i"><use href="#ph"/></svg> Call Now</a>
+</div></header>
+
+<main>
+<section class="hero" id="home" style="padding:0">
+  <div class="slides" id="slides">
+    <div class="slide on"><div class="wrap"><div>
+      <span class="tag">Andheri East’s Repair Workshop</span>
+      <h1>Motors that stop. <em>We get them running.</em></h1>
+      <p>Repair and rewinding for AC and DC motors from 0.5 HP all the way to 500 HP, done with care and tested before it leaves our shop.</p>
+      <div class="row"><a class="btn b-y" href="tel:+917738578508"><svg class="i"><use href="#ph"/></svg> Call 7738578508</a><a class="btn b-o" href="#services">Our Services</a></div>
+    </div><div class="art">⚙️</div></div></div>
+
+    <div class="slide"><div class="wrap"><div>
+      <span class="tag">Pump Care</span>
+      <h1>No water? <em>Let’s fix your pump.</em></h1>
+      <p>Water pump repair and servicing for buildings, shops and homes, so your supply keeps flowing without long breakdowns.</p>
+      <div class="row"><a class="btn b-g" href="https://wa.me/917738578508?text=Hello%20Shakti%20Electric%20Works%2C%20my%20water%20pump%20needs%20repair." target="_blank" rel="noopener"><svg class="i"><use href="#wa"/></svg> WhatsApp Us</a><a class="btn b-o" href="#services">See Details</a></div>
+    </div><div class="art">💧</div></div></div>
+
+    <div class="slide"><div class="wrap"><div>
+      <span class="tag">Rewinding Experts</span>
+      <h1>Burnt winding? <em>Rewound the right way.</em></h1>
+      <p>Neat coil work, proper insulation and careful testing give your motor a second life at a fraction of replacement cost.</p>
+      <div class="row"><a class="btn b-y" href="tel:+917738578508"><svg class="i"><use href="#ph"/></svg> Get a Quote</a><a class="btn b-o" href="#about">Why Us</a></div>
+    </div><div class="art">🌀</div></div></div>
+
+    <div class="slide"><div class="wrap"><div>
+      <span class="tag">Wiring & Plumbing</span>
+      <h1>Safe wiring. <em>Leak-free plumbing.</em></h1>
+      <p>One call for the small jobs too: electrical wiring, fault finding, pipe fitting and fixes for homes and workplaces.</p>
+      <div class="row"><a class="btn b-g" href="https://wa.me/917738578508?text=Hello%20Shakti%20Electric%20Works%2C%20I%20need%20wiring%2Fplumbing%20service." target="_blank" rel="noopener"><svg class="i"><use href="#wa"/></svg> Message Us</a><a class="btn b-o" href="#contact">Contact</a></div>
+    </div><div class="art">🔌</div></div></div>
+  </div>
+  <div class="dots" id="dots"></div>
+</section>
+
+<div class="strip"><div class="wrap">
+  <span>⚙️ 0.5 to 500 HP Motors</span><span>🔧 Repair & Rewinding</span><span>💧 Pump Service</span><span>📞 Call or WhatsApp</span>
+</div></div>
+
+<section id="about"><div class="wrap about">
+  <div>
+    <span class="eyebrow">About Us</span>
+    <h2>Your neighbourhood experts for motors, pumps and wiring</h2>
+    <p class="lead">Shakti Electric Works is a local repair and service workshop on Andheri–Kurla Road in J B Nagar. We look after everything from small household pumps to heavy industrial motors, and we aim to give every customer a clear diagnosis, a fair estimate and dependable work.</p>
+    <div class="mini">
+      <div><b>🚨 Urgent Jobs</b><span>Tell us it’s urgent and we’ll do our best to prioritise.</span></div>
+      <div><b>🔍 Check-ups</b><span>Inspection and testing to catch faults early.</span></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>What you can expect</h3>
+    <ul>
+      <li>Honest diagnosis before any work begins</li>
+      <li>Clear price estimate up front</li>
+      <li>Quality materials for rewinding and parts</li>
+      <li>Testing before delivery</li>
+      <li>Easy contact by phone or WhatsApp</li>
+    </ul>
+  </div>
+</div></section>
+
+<section class="alt"><div class="wrap center">
+  <span class="eyebrow">Our Strengths</span>
+  <h2>Why customers keep coming back</h2>
+  <p class="lead">Simple things done properly.</p>
+  <div class="feat" style="text-align:left">
+    <div><span class="n">01</span><h3>Skilled Technicians</h3><p>Hands-on experience across motors, pumps, wiring and plumbing.</p></div>
+    <div><span class="n">02</span><h3>Careful Testing</h3><p>Every repaired unit is checked so you get reliable performance.</p></div>
+    <div><span class="n">03</span><h3>Fair Estimates</h3><p>Transparent costs explained before the job starts.</p></div>
+    <div><span class="n">04</span><h3>Quick Response</h3><p>Reach us directly any time on call or WhatsApp.</p></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="wrap center">
+  <span class="eyebrow">What We Do</span>
+  <h2>Our Services</h2>
+  <p class="lead">Complete repair and service solutions for homes, shops, societies and industry.</p>
+  <div class="grid" style="text-align:left">
+    <article class="card"><div class="top-art">⚙️</div><div class="body"><h3>AC & DC Motor Repair</h3><p>Repair of all types of AC and DC motors, from 0.5 HP up to 500 HP.</p><ul><li>Single and three phase</li><li>Bearing and shaft work</li><li>Run test after repair</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20motor%20repair." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    <article class="card"><div class="top-art">💧</div><div class="body"><h3>Water Pump Repair & Service</h3><p>Fixing and servicing water pumps of different types and sizes.</p><ul><li>Seal and impeller replacement</li><li>Motor and winding repair</li><li>Preventive servicing</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20pump%20repair." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    <article class="card"><div class="top-art">🌀</div><div class="body"><h3>Rewinding</h3><p>Precise coil rewinding for motors and pumps using quality winding wire.</p><ul><li>Burnt coil replacement</li><li>Custom rewinding</li><li>Insulation checks</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20rewinding." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    <article class="card"><div class="top-art">🔌</div><div class="body"><h3>Electrical Wiring</h3><p>Neat, safe wiring and fault finding for homes, shops and workshops.</p><ul><li>New wiring and rewiring</li><li>Switch and panel work</li><li>Short-circuit tracing</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20wiring%20service." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    <article class="card"><div class="top-art">🚰</div><div class="body"><h3>Plumbing Services</h3><p>Practical plumbing help that goes hand in hand with pump and motor work.</p><ul><li>Pipe fitting and leak repair</li><li>Pump line installation</li><li>Taps and fittings</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20plumbing%20service." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+    <article class="card"><div class="top-art">🛠️</div><div class="body"><h3>Check-up & Maintenance</h3><p>Regular inspection to keep your equipment healthy and avoid costly breakdowns.</p><ul><li>Fault diagnosis</li><li>Performance testing</li><li>Service advice</li></ul><a class="more" href="https://wa.me/917738578508?text=Hello%2C%20I%20need%20a%20check-up." target="_blank" rel="noopener">Enquire on WhatsApp →</a></div></article>
+  </div>
+</div></section>
+
+<section class="cta"><div class="wrap">
+  <h2>Equipment not working? Talk to us today.</h2>
+  <p>Describe the problem on a call or send a quick WhatsApp message. We’ll guide you on the next step.</p>
+  <div class="row">
+    <a class="btn b-y" href="tel:+917738578508"><svg class="i"><use href="#ph"/></svg> 7738578508</a>
+    <a class="btn b-g" href="https://wa.me/917738578508" target="_blank" rel="noopener"><svg class="i"><use href="#wa"/></svg> Chat on WhatsApp</a>
+  </div>
+</div></section>
+
+<section id="contact"><div class="wrap center">
+  <span class="eyebrow">Get In Touch</span>
+  <h2>Contact Shakti Electric Works</h2>
+  <p class="lead">Visit our workshop, call us, or send your enquiry directly to WhatsApp.</p>
+  <div class="contact" style="text-align:left">
+    <div class="cbox">
+      <div class="item"><div class="ic">📞</div><div><b>Phone / WhatsApp</b><a class="big" href="tel:+917738578508">7738578508</a></div></div>
+      <div class="item"><div class="ic">📍</div><div><b>Address</b>Andheri–Kurla Rd, next to Divide Child School, Dr. Charatsingh Colony, S B Singh Colony, J B Nagar, Andheri East, Mumbai, Maharashtra 400093</div></div>
+      <a class="btn b-y" href="https://www.google.com/maps/search/?api=1&query=Shakti+Electric+Works+J+B+Nagar+Andheri+East+Mumbai+400093" target="_blank" rel="noopener"><svg class="i"><use href="#pin"/></svg> Open in Google Maps</a>
+    </div>
+    <div class="cbox">
+      <h3>Send an enquiry on WhatsApp</h3>
+      <div id="f">
+        <label for="nm">Your name</label><input id="nm" autocomplete="name">
+        <label for="sv">Service needed</label>
+        <select id="sv"><option>AC / DC Motor Repair</option><option>Water Pump Repair</option><option>Rewinding</option><option>Electrical Wiring</option><option>Plumbing</option><option>Other</option></select>
+        <label for="ms">Problem details</label><textarea id="ms"></textarea>
+        <button class="btn b-g" id="send" type="button"><svg class="i"><use href="#wa"/></svg> Send on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><div class="logo" style="color:#fff"><b>⚡</b><span>Shakti Electric Works</span></div><p style="margin-top:12px;font-size:.93rem">Motor, pump and electrical repair workshop serving Andheri East and nearby areas of Mumbai.</p></div>
+    <div><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div><h4>Services</h4><ul><li>AC & DC Motor Repair</li><li>Water Pump Service</li><li>Rewinding</li><li>Wiring & Plumbing</li></ul></div>
+    <div><h4>Contact</h4><ul><li>J B Nagar, Andheri East, Mumbai 400093</li><li><a href="tel:+917738578508">7738578508</a></li><li><a href="https://wa.me/917738578508" target="_blank" rel="noopener">WhatsApp</a></li></ul></div>
+  </div>
+  <div class="copy">© 2026 Shakti Electric Works. All rights reserved.</div>
+</div></footer>
+
+<div class="float">
+  <a class="w" href="https://wa.me/917738578508?text=Hello%20Shakti%20Electric%20Works%2C%20I%20need%20a%20repair%20service." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 32 32"><use href="#wa"/></svg></a>
+  <a class="c" href="tel:+917738578508" aria-label="Call 7738578508"><svg viewBox="0 0 24 24"><use href="#ph"/></svg></a>
+</div>
+
+<script>
+(function(){
+  var s=[].slice.call(document.querySelectorAll('.slide')),d=document.getElementById('dots'),i=0,t;
+  s.forEach(function(_,n){var b=document.createElement('button');b.setAttribute('aria-label','Slide '+(n+1));b.onclick=function(){go(n);reset()};d.appendChild(b)});
+  var bs=d.children;
+  function go(n){s[i].classList.remove('on');bs[i].classList.remove('on');i=n;s[i].classList.add('on');bs[i].classList.add('on')}
+  function reset(){clearInterval(t);t=setInterval(function(){go((i+1)%s.length)},5500)}
+  bs[0].classList.add('on');reset();
+  document.getElementById('send').onclick=function(){
+    var n=document.getElementById('nm').value.trim(),v=document.getElementById('sv').value,m=document.getElementById('ms').value.trim();
+    var txt='Hello Shakti Electric Works,\n'+(n?'Name: '+n+'\n':'')+'Service: '+v+(m?'\nDetails: '+m:'');
+    window.open('https://wa.me/917738578508?text='+encodeURIComponent(txt),'_blank','noopener');
+  };
+})();
+</script>
+</body>
+</html>
